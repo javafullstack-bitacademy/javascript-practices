@@ -33,3 +33,4 @@ console.log("==================================");
 // 엄격하게 형변환을 해서 두타입을 비교한다.
 var str = "5";
 console.log(parseInt(str) == 5);
+console.log(parseInt(str) == 5);
