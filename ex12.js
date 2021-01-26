@@ -6,7 +6,7 @@ Array.prototype.insert = function(index, value){
         //     index++;
         // }
         const _this = this;
-        value.forEach(function(v){
+        value.forEach(function(v) {
             _this.splice(index++, 0, v);
         });
     } else {
