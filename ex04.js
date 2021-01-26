@@ -5,9 +5,9 @@
 ;는 바로 실행할 수 구문을 만들 때 사용된다.
 */
 
-let s = 'Hello World'
-console.log(s)
-
-let s2='Hello World2'; console.log(s2)
-
+let s = 'Hello World';
+console.log(s);
+let s2='Hello World2';
+console.log(s2);
 console.log("!");
+

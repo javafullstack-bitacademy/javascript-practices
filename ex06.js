@@ -12,9 +12,11 @@ let MyObject = function(name, age){
 }
 
 myFunction();
+MyObject();
+
 
 let o1 = new MyObject('둘리', 10);
 let o2 = new MyObject('마이콜', 20);
 
 console.log(o2);
-console.log(o1);
+console.log(o1)

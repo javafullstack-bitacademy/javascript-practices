@@ -39,5 +39,4 @@ console.log(o3);
 // XmlHttpRequet 호스트(브라우저) 객체를 사용해서 통신에 많이 사용한다.
 let response = '{"no": 1, "name": "안대혁", "email": "kickscar@gmail.com"}';
 let user = eval("(" + response + ")");
-console.log(typeof(user));
-console.log(user.no);
+console.log(JSON.stringify(user));
